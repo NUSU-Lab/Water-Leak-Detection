@@ -4,11 +4,11 @@ readKeys = {};
 options = weboptions('ContentType','json');
 
 % Telegram bot token and chat ID
-botToken = '';
-clientID = '';
+botToken = 'YOUR_TELEGRAM_BOT_TOKEN';
+clientID = 'YOUR_TELEGRAM_CHAT_ID';
 
 % Dropbox access token
-dropboxAccessToken = '';
+dropboxAccessToken = 'DROPBOX_ACCESS_TOKEN';
 
 fileNames = 'RFModel.mat';
 
